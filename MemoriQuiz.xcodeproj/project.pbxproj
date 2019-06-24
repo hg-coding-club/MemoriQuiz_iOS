@@ -14,6 +14,7 @@
 		7E2A28B522A6BBC10083D81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A28B322A6BBC10083D81A /* LaunchScreen.storyboard */; };
 		7E2A28C022A6BBC10083D81A /* MemoriQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28BF22A6BBC10083D81A /* MemoriQuizTests.swift */; };
 		7E2A28CB22A6BBC10083D81A /* MemoriQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */; };
+		7E6EA2D722C0E49B003AD16C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7E2A28C622A6BBC10083D81A /* MemoriQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriQuizUITests.swift; sourceTree = "<group>"; };
 		7E2A28CC22A6BBC10083D81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7E2A28AA22A6BBBD0083D81A /* AppDelegate.swift */,
 				7E2A28AC22A6BBBD0083D81A /* ViewController.swift */,
 				7E2A28AE22A6BBBD0083D81A /* Main.storyboard */,
+				7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */,
 				7E2A28B122A6BBC10083D81A /* Assets.xcassets */,
 				7E2A28B322A6BBC10083D81A /* LaunchScreen.storyboard */,
 				7E2A28B622A6BBC10083D81A /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				7E2A28AD22A6BBBD0083D81A /* ViewController.swift in Sources */,
 				7E2A28AB22A6BBBD0083D81A /* AppDelegate.swift in Sources */,
+				7E6EA2D722C0E49B003AD16C /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,6 @@
 		7E2A28C022A6BBC10083D81A /* MemoriQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28BF22A6BBC10083D81A /* MemoriQuizTests.swift */; };
 		7E2A28CB22A6BBC10083D81A /* MemoriQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */; };
 		7E6EA2D722C0E49B003AD16C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */; };
-		7E793ECB22DBA35300298547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E793ECA22DBA35300298547 /* GoogleService-Info.plist */; };
 		913B020BA6C59671FC10D59E /* Pods_MemoriQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F290F55D0DA210A3694E84 /* Pods_MemoriQuizUITests.framework */; };
 		BDD8F4BD83D2659A29501450 /* Pods_MemoriQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6633D4D5941269A2DFB7B21A /* Pods_MemoriQuizTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriQuizUITests.swift; sourceTree = "<group>"; };
 		7E2A28CC22A6BBC10083D81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		7E793ECA22DBA35300298547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93CFEC33E9A9DFF9C9AF1A70 /* Pods-MemoriQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuiz.release.xcconfig"; path = "Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz.release.xcconfig"; sourceTree = "<group>"; };
 		B1F290F55D0DA210A3694E84 /* Pods_MemoriQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoriQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,7 +136,6 @@
 				7E2A28B122A6BBC10083D81A /* Assets.xcassets */,
 				7E2A28B322A6BBC10083D81A /* LaunchScreen.storyboard */,
 				7E2A28B622A6BBC10083D81A /* Info.plist */,
-				7E793ECA22DBA35300298547 /* GoogleService-Info.plist */,
 			);
 			path = MemoriQuiz;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2A28B522A6BBC10083D81A /* LaunchScreen.storyboard in Resources */,
-				7E793ECB22DBA35300298547 /* GoogleService-Info.plist in Resources */,
 				7E2A28B222A6BBC10083D81A /* Assets.xcassets in Resources */,
 				7E2A28B022A6BBBD0083D81A /* Main.storyboard in Resources */,
 			);

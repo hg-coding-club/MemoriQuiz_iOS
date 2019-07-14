@@ -7,6 +7,7 @@ target 'MemoriQuiz' do
 
   # Pods for MemoriQuiz
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
 
   target 'MemoriQuizTests' do

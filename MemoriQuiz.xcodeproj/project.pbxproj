@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3484DEC2B8D2491149EAF100 /* Pods_MemoriQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4A4531D73FF4E894A61743 /* Pods_MemoriQuiz.framework */; };
 		7E2A28AB22A6BBBD0083D81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28AA22A6BBBD0083D81A /* AppDelegate.swift */; };
 		7E2A28AD22A6BBBD0083D81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28AC22A6BBBD0083D81A /* ViewController.swift */; };
 		7E2A28B022A6BBBD0083D81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A28AE22A6BBBD0083D81A /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		7E2A28C022A6BBC10083D81A /* MemoriQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28BF22A6BBC10083D81A /* MemoriQuizTests.swift */; };
 		7E2A28CB22A6BBC10083D81A /* MemoriQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */; };
 		7E6EA2D722C0E49B003AD16C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */; };
+		7E793ECB22DBA35300298547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E793ECA22DBA35300298547 /* GoogleService-Info.plist */; };
+		913B020BA6C59671FC10D59E /* Pods_MemoriQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F290F55D0DA210A3694E84 /* Pods_MemoriQuizUITests.framework */; };
+		BDD8F4BD83D2659A29501450 /* Pods_MemoriQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6633D4D5941269A2DFB7B21A /* Pods_MemoriQuizTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2E9CAB1C95E5872C73832A /* Pods-MemoriQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuizTests.release.xcconfig"; path = "Target Support Files/Pods-MemoriQuizTests/Pods-MemoriQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E0CD867226A5C37D2349607 /* Pods-MemoriQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuizTests.debug.xcconfig"; path = "Target Support Files/Pods-MemoriQuizTests/Pods-MemoriQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ACB82220F598411DE5676AA /* Pods-MemoriQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuizUITests.release.xcconfig"; path = "Target Support Files/Pods-MemoriQuizUITests/Pods-MemoriQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48DEFEA14941A37037B47FD0 /* Pods-MemoriQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-MemoriQuizUITests/Pods-MemoriQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62AE874905FF15CA533749A5 /* Pods-MemoriQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuiz.debug.xcconfig"; path = "Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		6633D4D5941269A2DFB7B21A /* Pods_MemoriQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoriQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4A4531D73FF4E894A61743 /* Pods_MemoriQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoriQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2A28A722A6BBBD0083D81A /* MemoriQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoriQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2A28AA22A6BBBD0083D81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E2A28AC22A6BBBD0083D81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		7E2A28CA22A6BBC10083D81A /* MemoriQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriQuizUITests.swift; sourceTree = "<group>"; };
 		7E2A28CC22A6BBC10083D81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E6EA2D622C0E49B003AD16C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7E793ECA22DBA35300298547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93CFEC33E9A9DFF9C9AF1A70 /* Pods-MemoriQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoriQuiz.release.xcconfig"; path = "Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		B1F290F55D0DA210A3694E84 /* Pods_MemoriQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoriQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3484DEC2B8D2491149EAF100 /* Pods_MemoriQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD8F4BD83D2659A29501450 /* Pods_MemoriQuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913B020BA6C59671FC10D59E /* Pods_MemoriQuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7148E43F6F5A47FEB82E0693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62AE874905FF15CA533749A5 /* Pods-MemoriQuiz.debug.xcconfig */,
+				93CFEC33E9A9DFF9C9AF1A70 /* Pods-MemoriQuiz.release.xcconfig */,
+				1E0CD867226A5C37D2349607 /* Pods-MemoriQuizTests.debug.xcconfig */,
+				1D2E9CAB1C95E5872C73832A /* Pods-MemoriQuizTests.release.xcconfig */,
+				48DEFEA14941A37037B47FD0 /* Pods-MemoriQuizUITests.debug.xcconfig */,
+				2ACB82220F598411DE5676AA /* Pods-MemoriQuizUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E2A289E22A6BBBD0083D81A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				7E2A28BE22A6BBC10083D81A /* MemoriQuizTests */,
 				7E2A28C922A6BBC10083D81A /* MemoriQuizUITests */,
 				7E2A28A822A6BBBD0083D81A /* Products */,
+				7148E43F6F5A47FEB82E0693 /* Pods */,
+				C122FC26930F04481FC146EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				7E2A28B122A6BBC10083D81A /* Assets.xcassets */,
 				7E2A28B322A6BBC10083D81A /* LaunchScreen.storyboard */,
 				7E2A28B622A6BBC10083D81A /* Info.plist */,
+				7E793ECA22DBA35300298547 /* GoogleService-Info.plist */,
 			);
 			path = MemoriQuiz;
 			sourceTree = "<group>";
@@ -128,6 +161,16 @@
 			path = MemoriQuizUITests;
 			sourceTree = "<group>";
 		};
+		C122FC26930F04481FC146EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4A4531D73FF4E894A61743 /* Pods_MemoriQuiz.framework */,
+				6633D4D5941269A2DFB7B21A /* Pods_MemoriQuizTests.framework */,
+				B1F290F55D0DA210A3694E84 /* Pods_MemoriQuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E2A28CF22A6BBC10083D81A /* Build configuration list for PBXNativeTarget "MemoriQuiz" */;
 			buildPhases = (
+				6B72946DCCD488A232BF535F /* [CP] Check Pods Manifest.lock */,
 				7E2A28A322A6BBBD0083D81A /* Sources */,
 				7E2A28A422A6BBBD0083D81A /* Frameworks */,
 				7E2A28A522A6BBBD0083D81A /* Resources */,
+				9123E0D89C994C5295922039 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E2A28D222A6BBC10083D81A /* Build configuration list for PBXNativeTarget "MemoriQuizTests" */;
 			buildPhases = (
+				7E49047F6D448D0437C7D709 /* [CP] Check Pods Manifest.lock */,
 				7E2A28B722A6BBC10083D81A /* Sources */,
 				7E2A28B822A6BBC10083D81A /* Frameworks */,
 				7E2A28B922A6BBC10083D81A /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E2A28D522A6BBC10083D81A /* Build configuration list for PBXNativeTarget "MemoriQuizUITests" */;
 			buildPhases = (
+				510316100D70E7AFE6FA7A36 /* [CP] Check Pods Manifest.lock */,
 				7E2A28C222A6BBC10083D81A /* Sources */,
 				7E2A28C322A6BBC10083D81A /* Frameworks */,
 				7E2A28C422A6BBC10083D81A /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2A28B522A6BBC10083D81A /* LaunchScreen.storyboard in Resources */,
+				7E793ECB22DBA35300298547 /* GoogleService-Info.plist in Resources */,
 				7E2A28B222A6BBC10083D81A /* Assets.xcassets in Resources */,
 				7E2A28B022A6BBBD0083D81A /* Main.storyboard in Resources */,
 			);
@@ -253,6 +301,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		510316100D70E7AFE6FA7A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoriQuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B72946DCCD488A232BF535F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoriQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E49047F6D448D0437C7D709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoriQuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9123E0D89C994C5295922039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MemoriQuiz/Pods-MemoriQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E2A28A322A6BBBD0083D81A /* Sources */ = {
@@ -434,6 +568,7 @@
 		};
 		7E2A28D022A6BBC10083D81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AE874905FF15CA533749A5 /* Pods-MemoriQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +587,7 @@
 		};
 		7E2A28D122A6BBC10083D81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CFEC33E9A9DFF9C9AF1A70 /* Pods-MemoriQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +606,7 @@
 		};
 		7E2A28D322A6BBC10083D81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0CD867226A5C37D2349607 /* Pods-MemoriQuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +628,7 @@
 		};
 		7E2A28D422A6BBC10083D81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2E9CAB1C95E5872C73832A /* Pods-MemoriQuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +650,7 @@
 		};
 		7E2A28D622A6BBC10083D81A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DEFEA14941A37037B47FD0 /* Pods-MemoriQuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +671,7 @@
 		};
 		7E2A28D722A6BBC10083D81A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACB82220F598411DE5676AA /* Pods-MemoriQuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

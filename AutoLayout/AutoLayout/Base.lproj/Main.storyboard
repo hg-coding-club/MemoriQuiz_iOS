@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rMl-CA-00l">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yo7-Ds-nme" userLabel="View1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="205.66666666666666"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lv.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sc5-M7-Hi4">
+                                                <rect key="frame" x="192" y="92.666666666666657" width="30.333333333333343" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鈴木太郎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuO-lp-CKB">
+                                                <rect key="frame" x="172.33333333333334" y="0.0" width="69.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="sc5-M7-Hi4" firstAttribute="centerY" secondItem="yo7-Ds-nme" secondAttribute="centerY" id="3Qf-Xo-3P7"/>
+                                            <constraint firstItem="WuO-lp-CKB" firstAttribute="centerX" secondItem="yo7-Ds-nme" secondAttribute="centerX" id="QeB-g7-6cd"/>
+                                            <constraint firstItem="WuO-lp-CKB" firstAttribute="top" secondItem="yo7-Ds-nme" secondAttribute="top" id="d5g-fG-Mf5"/>
+                                            <constraint firstItem="sc5-M7-Hi4" firstAttribute="centerX" secondItem="yo7-Ds-nme" secondAttribute="centerX" id="ikK-fT-h8G"/>
+                                            <constraint firstItem="sc5-M7-Hi4" firstAttribute="centerX" secondItem="yo7-Ds-nme" secondAttribute="centerX" id="y6N-oD-aPf"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQN-EN-vFy" userLabel="View2">
+                                        <rect key="frame" x="0.0" y="215.66666666666669" width="414" height="205.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日やること" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfd-Ys-0bY">
+                                                <rect key="frame" x="155" y="0.0" width="104" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="wfd-Ys-0bY" firstAttribute="centerX" secondItem="JQN-EN-vFy" secondAttribute="centerX" id="DY9-IL-ymY"/>
+                                            <constraint firstItem="wfd-Ys-0bY" firstAttribute="top" secondItem="JQN-EN-vFy" secondAttribute="top" id="u2p-Ho-Lfi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Dq-65-gDI" userLabel="View3">
+                                        <rect key="frame" x="0.0" y="431.00000000000006" width="414" height="205.66666666666669"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最近解いたクイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-tI-GcQ">
+                                                <rect key="frame" x="137.66666666666669" y="0.0" width="138.66666666666669" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Mvr-tI-GcQ" firstAttribute="centerX" secondItem="0Dq-65-gDI" secondAttribute="centerX" id="UX2-q4-d6F"/>
+                                            <constraint firstItem="Mvr-tI-GcQ" firstAttribute="top" secondItem="0Dq-65-gDI" secondAttribute="top" id="YRC-5W-LHJ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWJ-ET-bxj" userLabel="View4">
+                                        <rect key="frame" x="0.0" y="646.66666666666663" width="414" height="205.33333333333337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最近作ったクイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXM-7G-kwF">
+                                                <rect key="frame" x="137.66666666666669" y="0.0" width="138.66666666666669" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="IXM-7G-kwF" firstAttribute="centerX" secondItem="kWJ-ET-bxj" secondAttribute="centerX" id="Oow-92-von"/>
+                                            <constraint firstItem="IXM-7G-kwF" firstAttribute="top" secondItem="kWJ-ET-bxj" secondAttribute="top" id="PTh-Bw-sV9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rMl-CA-00l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8Ld-UG-Zk0"/>
+                            <constraint firstItem="rMl-CA-00l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a2F-z0-QGW"/>
+                            <constraint firstAttribute="bottom" secondItem="rMl-CA-00l" secondAttribute="bottom" id="dcW-pX-T2O"/>
+                            <constraint firstItem="rMl-CA-00l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z76-5w-SMo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.35869565217392"/>
+        </scene>
+    </scenes>
+</document>
